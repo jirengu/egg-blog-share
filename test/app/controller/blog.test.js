@@ -26,13 +26,13 @@ describe('test/app/controller/blog.test.js', () => {
       .expect(200);
   });
 
-  it('should PATCH /blog/:blogId', () => {
-    app.mockCsrf();
-    return app.httpRequest()
-      .patch('/blog/:blogId')
-      .expect('update')
-      .expect(200);
-  });
+  // it('should PATCH /blog/:blogId', () => {
+  //   app.mockCsrf();
+  //   return app.httpRequest()
+  //     .patch('/blog/:blogId')
+  //     .expect('update')
+  //     .expect(200);
+  // });
 
   it('should DELETE /blog/:blogId', () => {
     app.mockCsrf();

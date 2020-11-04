@@ -1,0 +1,14 @@
+{
+  "development": {
+    "storage": "./database/egg-sequelize-doc-default.sqlite",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "storage": "./database/egg-sequelize-doc-unittest.sqlite",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "storage": "./database/egg-sequelize-doc-default.sqlite",
+    "dialect": "sqlite"
+  }
+}

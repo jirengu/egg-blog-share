@@ -12,4 +12,7 @@ module.exports = app => {
   router.post('/blog', controller.blog.create);
   router.patch('/blogs/:blogId', controller.blog.update);
   router.delete('/blog/:blogId', controller.blog.delete);
+
+  router.resources('users', '/users', controller.users);
+
 };
